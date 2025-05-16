@@ -1,0 +1,34 @@
+.container {
+    margin: auto;
+    max-width: 1366px;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+h1 {
+    font: var(--title-lg);
+    color: var(--gray-600);
+}
+
+.sub {
+    font: var(--subtitle);
+    color: var(--gray-500);
+}
+
+
+.paragrafo {
+    font: var(--text-sm);
+    color: var(--gray-400);
+}
+
+.header-icone-text {
+    font: var(--text-md);
+    color: var(--gray-500);
+}
+
+.header-icone {
+    width: 24px;
+    height: 24px;
+}
