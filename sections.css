@@ -1,0 +1,47 @@
+#section-projetos {
+
+    .fundo-section-projetos {
+        background-color: var(--gray-200);
+        width: 1366px;
+        height: 917px;
+    }
+
+    .padding {
+        padding-top: 72px;
+    }
+
+    .header-section-projetos {
+        display: grid;
+        text-align: center;
+
+
+    }
+
+    .container-projects {
+        display: grid;
+        margin: auto;
+        width: 1040px;
+        height: 584px;
+
+
+    }
+
+    .img-projects {
+        width: 306px;
+        height: 156px;
+        border-radius: 12px;
+
+
+    }
+
+    .projectcard {
+        background-color: var(--gray-300);
+        width: 330px;
+        height: 280px;
+        border-radius: 12px;
+
+
+    }
+
+
+}
