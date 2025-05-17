@@ -33,6 +33,7 @@ h1 {
 .text-subtitulo {
     font: var(--title-md);
     color: var(--gray-600);
+    margin-top: 8px;
 }
 
 .paragrafo {
@@ -48,4 +49,18 @@ h1 {
 .header-icone {
     width: 24px;
     height: 24px;
+
+
+
 }
+
+.title-box-section{
+    font: var(--title-sm);
+    color: var(--gray-600);
+    margin-bottom: 8px;
+
+
+}
+/* .projectcard :hover{
+ border: 5px solid var(--gray-300);
+} */
