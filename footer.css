@@ -29,7 +29,7 @@
     }
 
     .header-footer {
-        border: 1px solid red;
+
         text-align: center;
 
         margin-inline: auto;
@@ -37,8 +37,8 @@
     }
 
     .container-links {
+        display: grid;
         margin: auto;
-        border: 1px solid red;
         width: 400px;
         height: 320px;
         gap: 16px;
@@ -59,6 +59,12 @@
         border: 1.5px solid transparent
     }
 
+    .links span {
+        font: var(--text-md);
+        color: var(--gray-500);
+
+    }
+
     .links:hover {
         border: 1.5px solid var(--blue);
         cursor: pointer;
@@ -74,8 +80,8 @@
 
     }
 
-    .hover:hover {
-        filter: hue-rotate(180deg) saturate(2) brightness(1.2);
+    .links:hover svg path {
+        fill: var(--blue);
     }
 
 }
